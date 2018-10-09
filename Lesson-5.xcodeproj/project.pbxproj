@@ -16,6 +16,10 @@
 		C10EDE48216BF6A500F2BB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C10EDE47216BF6A500F2BB6A /* main.m */; };
 		C10EDE52216BF6A500F2BB6A /* Lesson_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C10EDE51216BF6A500F2BB6A /* Lesson_5Tests.m */; };
 		C10EDE5D216BF6A500F2BB6A /* Lesson_5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C10EDE5C216BF6A500F2BB6A /* Lesson_5UITests.m */; };
+		C10EDE6C216BF6D300F2BB6A /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = C10EDE6B216BF6D300F2BB6A /* Human.m */; };
+		C10EDE6F216BFA4900F2BB6A /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = C10EDE6E216BFA4900F2BB6A /* Runner.m */; };
+		C10EDE72216BFF9200F2BB6A /* Bicycler.m in Sources */ = {isa = PBXBuildFile; fileRef = C10EDE71216BFF9200F2BB6A /* Bicycler.m */; };
+		C10EDE75216BFFD400F2BB6A /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = C10EDE74216BFFD400F2BB6A /* Swimmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		C10EDE58216BF6A500F2BB6A /* Lesson-5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson-5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10EDE5C216BF6A500F2BB6A /* Lesson_5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_5UITests.m; sourceTree = "<group>"; };
 		C10EDE5E216BF6A500F2BB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C10EDE6A216BF6D300F2BB6A /* Human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		C10EDE6B216BF6D300F2BB6A /* Human.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		C10EDE6D216BFA4900F2BB6A /* Runner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		C10EDE6E216BFA4900F2BB6A /* Runner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		C10EDE70216BFF9200F2BB6A /* Bicycler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bicycler.h; sourceTree = "<group>"; };
+		C10EDE71216BFF9200F2BB6A /* Bicycler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bicycler.m; sourceTree = "<group>"; };
+		C10EDE73216BFFD400F2BB6A /* Swimmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		C10EDE74216BFFD400F2BB6A /* Swimmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,14 @@
 		C10EDE34216BF6A400F2BB6A /* Lesson-5 */ = {
 			isa = PBXGroup;
 			children = (
+				C10EDE6A216BF6D300F2BB6A /* Human.h */,
+				C10EDE6B216BF6D300F2BB6A /* Human.m */,
+				C10EDE73216BFFD400F2BB6A /* Swimmer.h */,
+				C10EDE74216BFFD400F2BB6A /* Swimmer.m */,
+				C10EDE70216BFF9200F2BB6A /* Bicycler.h */,
+				C10EDE71216BFF9200F2BB6A /* Bicycler.m */,
+				C10EDE6D216BFA4900F2BB6A /* Runner.h */,
+				C10EDE6E216BFA4900F2BB6A /* Runner.m */,
 				C10EDE35216BF6A400F2BB6A /* AppDelegate.h */,
 				C10EDE36216BF6A400F2BB6A /* AppDelegate.m */,
 				C10EDE38216BF6A400F2BB6A /* ViewController.h */,
@@ -265,10 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10EDE75216BFFD400F2BB6A /* Swimmer.m in Sources */,
 				C10EDE3A216BF6A400F2BB6A /* ViewController.m in Sources */,
+				C10EDE6F216BFA4900F2BB6A /* Runner.m in Sources */,
 				C10EDE40216BF6A400F2BB6A /* Lesson_5.xcdatamodeld in Sources */,
+				C10EDE6C216BF6D300F2BB6A /* Human.m in Sources */,
 				C10EDE48216BF6A500F2BB6A /* main.m in Sources */,
 				C10EDE37216BF6A400F2BB6A /* AppDelegate.m in Sources */,
+				C10EDE72216BFF9200F2BB6A /* Bicycler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

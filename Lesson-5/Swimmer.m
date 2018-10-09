@@ -10,4 +10,8 @@
 
 @implementation Swimmer
 
+- (void) move {
+    NSLog(@"%@ is swimming", self.name);
+}
+
 @end

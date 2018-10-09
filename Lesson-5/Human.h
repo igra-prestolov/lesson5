@@ -6,12 +6,15 @@
 //  Copyright © 2018 Tatiana Galushko. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <UIKit/UIKit.h>
 
 @interface Human : NSObject
+@property (strong, nonatomic) NSString *name;
+@property (assign, nonatomic) float height;
+@property (assign, nonatomic) float weight;
+@property (strong, nonatomic) NSString *gender;
+
+- (instancetype) initWithName: (NSString *)name andWithGender: (NSString *)gender andWithHeight: (float)height andWithWeight: (float)weight;
+- (void) move;
 
 @end
-
-NS_ASSUME_NONNULL_END

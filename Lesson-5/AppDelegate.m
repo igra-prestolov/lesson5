@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "Human.h"
+#import "Bicycler.h"
+#import "Runner.h"
+#import "Swimmer.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    Human *male = [[Human alloc] initWithName:@"Anton" andWithGender:@"male" andWithHeight:6.1f andWithWeight:200.f];
+    Human *female = [[Human alloc] initWithName:@"Sveta" andWithGender:@"female" andWithHeight:5.6f andWithWeight:160.f];
+    Runner *runnner = [[Runner alloc] initWithName:@"Bob" andWithGender:@"male" andWithHeight:5.12f andWithWeight:189.f];
+    Bicycler *bycycler = [[Bicycler alloc] initWithName:@"Stella" andWithGender:@"female" andWithHeight:5.2f andWithWeight:138.f];
+    Swimmer *swimmer = [[Swimmer alloc] initWithName:@"Margo" andWithGender:@"femelae" andWithHeight:5.11f andWithWeight:168.f];
+
+    
+    NSArray *human = [NSArray arrayWithObjects:male, female, runnner, bycycler, swimmer, nil];
+    
+    for (Human* person in human) {
+        NSLog(@"%@ %@ %f %f", person.name, person.gender, person.height, person.weight);
+        [person move];
+    }
+    
     return YES;
 }
 

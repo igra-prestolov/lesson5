@@ -10,4 +10,8 @@
 
 @implementation Bicycler
 
+- (void) move {
+    NSLog(@"%@ is riding", self.name);
+}
+
 @end
